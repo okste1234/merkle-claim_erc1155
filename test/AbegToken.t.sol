@@ -21,9 +21,9 @@ contract AbegTest is Test {
     Result public result;
     User public user;
     bytes32 root =
-        0x975a7c306f2cbfe118f7ac5581c921a6478d956471fd166424c44ad5c3db4c34;
+        0x9eb195b8eb8e555e09ee4572509404e9b435738b7c0ebd35a667492d3459da8b;
 
-    address user1 = 0xc72046a9Be6aB21651278eDA3d76bD91F124790c;
+    address user1 = 0x9e71e69F9338E859148Ce1769F440aba4458F41A;
 
     function setUp() public {
         merkle = new Merkle(root);
